@@ -1,0 +1,55 @@
+Source: python-fasteners
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               openstack-pkg-tools,
+               python-all,
+               python-setuptools,
+               python-sphinx,
+               python3-all,
+               python3-setuptools,
+Build-Depends-Indep: python-concurrent.futures,
+                     python-monotonic,
+                     python-nose,
+                     python-six,
+                     python-sphinx-rtd-theme,
+                     python-testtools,
+                     python3-monotonic,
+                     python3-nose,
+                     python3-six,
+                     python3-testtools,
+Standards-Version: 3.9.6
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-fasteners.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-fasteners.git
+Homepage: https://github.com/harlowja/fasteners
+
+Package: python-fasteners
+Architecture: all
+Depends: python-monotonic,
+         python-six,
+         ${misc:Depends},
+         ${python:Depends},
+Description: provides useful locks - Python 2.7
+ Fasterners is a python package that provides useful locks. It includes locking
+ decorator (that acquires instance objects lock(s), acquires on method entry
+ and releases on method exit), reader-writer locks, inter-process locks and
+ generic lock helpers.
+ .
+ This package contains the Python 2.7 module.
+
+Package: python3-fasteners
+Architecture: all
+Depends: python3-monotonic,
+         python3-six,
+         ${misc:Depends},
+         ${python3:Depends},
+Description: provides useful locks - Python 3.x
+ Fasterners is a python package that provides useful locks. It includes locking
+ decorator (that acquires instance objects lock(s), acquires on method entry
+ and releases on method exit), reader-writer locks, inter-process locks and
+ generic lock helpers.
+ .
+ This package contains the Python 3.x module.

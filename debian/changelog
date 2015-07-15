@@ -1,0 +1,5 @@
+python-fasteners (0.12.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #792497)
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 15 Jul 2015 14:13:32 +0200
