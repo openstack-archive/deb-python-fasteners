@@ -33,7 +33,7 @@ Depends: python-monotonic,
          ${misc:Depends},
          ${python:Depends},
 Description: provides useful locks - Python 2.7
- Fasterners is a Python package that provides useful locks. It includes locking
+ Fasteners is a Python package that provides useful locks. It includes locking
  decorator (that acquires instance objects lock(s), acquires on method entry
  and releases on method exit), reader-writer locks, inter-process locks and
  generic lock helpers.
@@ -47,7 +47,7 @@ Depends: python3-monotonic,
          ${misc:Depends},
          ${python3:Depends},
 Description: provides useful locks - Python 3.x
- Fasterners is a Python package that provides useful locks. It includes locking
+ Fasteners is a Python package that provides useful locks. It includes locking
  decorator (that acquires instance objects lock(s), acquires on method entry
  and releases on method exit), reader-writer locks, inter-process locks and
  generic lock helpers.
