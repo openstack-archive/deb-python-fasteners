@@ -1,3 +1,9 @@
+python-fasteners (0.12.0-3) UNRELEASED; urgency=medium
+
+  * Fixed VCS URLs (https).
+
+ -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:37:26 +0100
+
 python-fasteners (0.12.0-2) unstable; urgency=medium
 
   * Fixed typo in long description (Closes: #802195).
