@@ -22,8 +22,8 @@ Build-Depends-Indep: python-concurrent.futures,
                      python3-six,
                      python3-testtools,
 Standards-Version: 3.9.6
-Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-fasteners.git/
-Vcs-Git: https://anonscm.debian.org/git/openstack/python-fasteners.git
+Vcs-Browser: https://git.openstack.org/cgit/openstack/deb-python-fasteners?h=debian%2Fnewton
+Vcs-Git: https://git.openstack.org/openstack/deb-python-fasteners -b debian/newton
 Homepage: https://github.com/harlowja/fasteners
 
 Package: python-fasteners
